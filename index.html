@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Responsive landing page clone inspired by a SITE123-style business website, ready for APK conversion via Capacitor/WebView."
+    />
+    <title>NovaForge | Digital Growth Studio</title>
+    <meta name="theme-color" content="#0b1020" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="NovaForge home">
+          <span class="brand-mark">N</span>
+          <span>NovaForge</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="#contact" class="btn btn-outline">Book a call</a>
+          <button class="menu-toggle" aria-label="Open menu">☰</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Growth that feels effortless</span>
+            <h1>We turn bold ideas into digital experiences that sell.</h1>
+            <p>
+              From strategy and branding to websites and campaigns, we help startups
+              and businesses launch faster, look better, and convert smarter.
+            </p>
+
+            <div class="cta-row">
+              <a href="#contact" class="btn btn-primary">Get a free quote</a>
+              <a href="#work" class="btn btn-secondary">View our work</a>
+            </div>
+
+            <ul class="hero-trust" aria-label="Trust points">
+              <li>60+ launches</li>
+              <li>4.9/5 client rating</li>
+              <li>Fast delivery</li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Business metrics and consultation card">
+            <div class="card-top">
+              <div class="mini-badge">Live growth</div>
+              <span class="trend">+38.2%</span>
+            </div>
+            <div class="chart-box">
+              <div class="bars" aria-hidden="true">
+                <span style="height: 35%"></span>
+                <span style="height: 55%"></span>
+                <span style="height: 40%"></span>
+                <span style="height: 72%"></span>
+                <span style="height: 66%"></span>
+                <span style="height: 90%"></span>
+                <span style="height: 100%"></span>
+              </div>
+            </div>
+            <div class="metric-row">
+              <div>
+                <strong>348%</strong>
+                <span>Pipeline growth</span>
+              </div>
+              <div>
+                <strong>14 Days</strong>
+                <span>Avg. launch</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="logos section-sm">
+        <div class="container">
+          <p>Trusted by teams building what’s next</p>
+          <div class="brand-row" aria-label="Client logos">
+            <span>Northstar</span>
+            <span>Yonder</span>
+            <span>PeakLabs</span>
+            <span>Brightly</span>
+            <span>Vanta</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container split-grid">
+          <div>
+            <span class="eyebrow accent">Why choose us</span>
+            <h2>Strategy, design, and development under one roof.</h2>
+          </div>
+          <div>
+            <p>
+              We combine creative thinking with performance marketing and solid
+              product execution so your brand isn’t just pretty — it generates real
+              business results.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section alt-bg">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow accent">Services</span>
+            <h2>Everything your brand needs to grow.</h2>
+          </div>
+
+          <div class="card-grid three-col">
+            <article class="info-card">
+              <div class="icon-box">✦</div>
+              <h3>Brand Strategy</h3>
+              <p>Positioning, messaging, and visual direction to clarify your value.</p>
+            </article>
+            <article class="info-card">
+              <div class="icon-box">◌</div>
+              <h3>Web Design</h3>
+              <p>Modern experiences built to convert attention into action.</p>
+            </article>
+            <article class="info-card">
+              <div class="icon-box">⌁</div>
+              <h3>Performance Marketing</h3>
+              <p>Campaigns, landing pages, and optimization to scale acquisition.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow accent">Our work</span>
+            <h2>Selected projects that drive results.</h2>
+          </div>
+
+          <div class="showcase-grid">
+            <article class="project-card large">
+              <div class="project-visual visual-one"></div>
+              <div class="project-copy">
+                <span>Fintech startup</span>
+                <h3>Converted a product demo into a qualified pipeline engine.</h3>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-visual visual-two"></div>
+              <div class="project-copy">
+                <span>Healthcare brand</span>
+                <h3>Rebuilt trust and improved patient inquiries by 63%.</h3>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-visual visual-three"></div>
+              <div class="project-copy">
+                <span>SaaS platform</span>
+                <h3>Revamped funnel messaging and increased trial conversions.</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-bg">
+        <div class="container">
+          <div class="section-head center">
+            <span class="eyebrow accent">Process</span>
+            <h2>Simple, transparent, and efficient.</h2>
+          </div>
+
+          <div class="steps-grid">
+            <div class="step">
+              <span>01</span>
+              <h3>Discovery</h3>
+              <p>We define goals, audiences, positioning, and the roadmap.</p>
+            </div>
+            <div class="step">
+              <span>02</span>
+              <h3>Design</h3>
+              <p>We create a compelling digital experience that matches the brand.</p>
+            </div>
+            <div class="step">
+              <span>03</span>
+              <h3>Launch</h3>
+              <p>We ship, optimize, and refine using real user feedback and data.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section">
+        <div class="container">
+          <div class="section-head center">
+            <span class="eyebrow accent">Pricing</span>
+            <h2>Flexible options for teams at every stage.</h2>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="price-card">
+              <span class="plan">Starter</span>
+              <h3>$499</h3>
+              <p>Best for new businesses getting online.</p>
+              <ul>
+                <li>Landing page design</li>
+                <li>Brand messaging</li>
+                <li>Email support</li>
+              </ul>
+              <a href="#contact" class="btn btn-secondary full">Start now</a>
+            </article>
+
+            <article class="price-card featured">
+              <span class="plan">Growth</span>
+              <h3>$1,299</h3>
+              <p>For brands scaling outreach and conversions.</p>
+              <ul>
+                <li>Full website design</li>
+                <li>Conversion optimization</li>
+                <li>Priority support</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary full">Book strategy call</a>
+            </article>
+
+            <article class="price-card">
+              <span class="plan">Scale</span>
+              <h3>Custom</h3>
+              <p>Advanced marketing support and ongoing growth systems.</p>
+              <ul>
+                <li>Campaign strategy</li>
+                <li>Brand system</li>
+                <li>Fractional marketing team</li>
+              </ul>
+              <a href="#contact" class="btn btn-secondary full">Talk to us</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-grid">
+          <div class="contact-copy">
+            <span class="eyebrow accent">Get in touch</span>
+            <h2>Tell us what you’re building.</h2>
+            <p>
+              Whether you need a new website, a smarter funnel, or a stronger brand,
+              we’d love to hear about it.
+            </p>
+            <ul class="contact-list">
+              <li>Email: hello@novaforge.example</li>
+              <li>Phone: +1 (415) 555-0148</li>
+              <li>Location: San Francisco, CA</li>
+            </ul>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+
+            <label>
+              Project type
+              <select name="service">
+                <option>Website design</option>
+                <option>Brand strategy</option>
+                <option>Marketing funnel</option>
+                <option>Custom project</option>
+              </select>
+            </label>
+
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="Tell us about your project"></textarea>
+            </label>
+
+            <button type="submit" class="btn btn-primary full">Send inquiry</button>
+            <p id="formStatus" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <a href="#top" class="brand footer-brand">
+            <span class="brand-mark">N</span>
+            <span>NovaForge</span>
+          </a>
+        </div>
+        <div class="footer-links">
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <p>© 2026 NovaForge Studio</p>
+      </div>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
